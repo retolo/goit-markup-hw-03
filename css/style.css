@@ -208,7 +208,7 @@ ul.list_third_section li.item_list {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    padding-left: 16px;
+
 }
 .text_app{
     font-weight:400;
@@ -216,7 +216,7 @@ ul.list_third_section li.item_list {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
+
 }
 
 .foot_section{
@@ -298,16 +298,24 @@ img{
 .fourth_list{
     display: flex;
     flex-wrap: wrap;
-/*    gap: 24px 48px;*/
-/*    list-style-type: none;*/
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .fourth_section{
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
 .fourth_item_list{
+    width: calc((100% - 48px) / 3);
+
+}
+
+.portfolio_apps{
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 
 }
