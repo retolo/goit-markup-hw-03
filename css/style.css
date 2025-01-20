@@ -304,6 +304,11 @@ ul{
 }
 
 .second_section_item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
     width: calc((100% - 3 * 24px) / 4)
 }
 
