@@ -140,6 +140,7 @@ body{
 
 .third_section{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .header_third_section{
@@ -150,11 +151,22 @@ body{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 
 }
 
 ul.list_third_section li.item_list {
     background-color: #FFFFFF;
+
+}
+.item_list{
+    text-align: center;
+}
+
+.list_third_section{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
 }
 
 
