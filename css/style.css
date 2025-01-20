@@ -13,6 +13,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .studio{
@@ -46,6 +47,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .mail:hover{
@@ -185,4 +188,42 @@ ul.list_third_section li.item_list {
 
 .studio_footer{
     color: #F4F4FD;
+}
+
+
+img{
+    display: block;
+}
+
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header_wrapper{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.navigation_header{
+    display: flex;
+    align-items: center;
+}
+
+.header_menu{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.header_adress{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+
 }
