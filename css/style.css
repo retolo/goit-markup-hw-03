@@ -198,6 +198,7 @@ ul.list_third_section li.item_list {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .header_app{
@@ -206,6 +207,8 @@ ul.list_third_section li.item_list {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
+    padding-left: 16px;
 }
 .text_app{
     font-weight:400;
@@ -213,10 +216,13 @@ ul.list_third_section li.item_list {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
 }
 
 .foot_section{
     background-color: #2E2F42;
+/*    width: 1240px;*/
+    height: 312px;
 }
 
 
@@ -288,3 +294,20 @@ img{
     padding: 32px 0;
 }
 
+
+.fourth_list{
+    display: flex;
+    flex-wrap: wrap;
+/*    gap: 24px 48px;*/
+/*    list-style-type: none;*/
+}
+
+.fourth_section{
+    padding: 120px 0;
+}
+
+
+.fourth_item_list{
+    border: 1px solid #E7E9FC;
+
+}
