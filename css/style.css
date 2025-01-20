@@ -299,6 +299,9 @@ img{
 .second_section{
     padding: 120px 0;
 }
+ul{
+    padding-left: 0;
+}
 
 .second_section_item{
     width: calc((100% - 3 * 24px) / 4)
