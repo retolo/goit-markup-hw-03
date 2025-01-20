@@ -65,6 +65,20 @@ body{
     padding: 188px 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header_first_section{
     font-weight: 700;
     font-size: 56px;
@@ -91,7 +105,7 @@ body{
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
-/*    padding: 16px 32px;*/
+
     border: none;
     margin: 0 auto;
 }
@@ -113,6 +127,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text_info{
@@ -240,5 +255,18 @@ img{
 
 }
 
+.second_list{
+    display: flex;
+    gap: 24px;
 
+
+}
+
+.second_section{
+    padding: 120px 0;
+}
+
+.second_section_item{
+    width: calc((100% - 72px) / 4);
+}
 
