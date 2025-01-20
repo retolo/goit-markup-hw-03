@@ -14,6 +14,8 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .studio{
@@ -223,6 +225,7 @@ ul.list_third_section li.item_list {
     background-color: #2E2F42;
 /*    width: 1240px;*/
     height: 312px;
+    padding: 100px 0;
 }
 
 
