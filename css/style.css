@@ -182,7 +182,13 @@ ul.list_third_section li.item_list {
     display: flex;
     gap: 24px;
 }
+a{
+    text-decoration: none;
+}
 
+ul{
+    list-style-type: none;
+}
 
 .name_header{
     font-weight: 500;
@@ -280,6 +286,7 @@ img{
     display: flex;
 /*    list-style-type: none;*/
     gap: 40px;
+    margin-right: 332px;
 }
 
 .header_adress{
